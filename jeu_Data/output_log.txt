@@ -1,0 +1,851 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x402)
+    Vendor:   Intel
+    VRAM:     880 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+- Completed reload, in  0.366 seconds
+Platform assembly: C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'PlayerCreator') is missing!
+ 
+(Filename:  Line: 1656)
+
+UnloadTime: 0.905445 ms
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 386)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 386)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 386)
+
+400 Bad Request
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform assembly: C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Users\onyx-dev\Desktop\dossierUtile\ce\match3-master\match3-master\jeu_Data\Managed\System.Data.dll (this message is harmless)
+token hca5cFCFPzezxytDevPUugNOroGDTbixkw2jYIPNamsTPwyV51U9nv1G_3lFRDM233Kgyyk2bd1jaAA8HCo6j401c-U6fBXjy6Zq4nzcdp0D3Qbx2BHFQxAhHGPm55SJjfXllPJ7riOHdKoLPynZY9SS_Q1berhdV-MPvJdspPV6VGKaVahdpgMjWlD9lwcCOxqEdYVC2VMSXGnXehuR3hkEFAizo6Fovwz1cPbztgk34dKNnYViVqEWQvwC9UqqPTrm5Jd6JhkACNOa4GmZ3BE-Pe03dUyDDpBzwvZC2bJmkyHfivtTD7NnPw8b0OXlDFG9aq5C34KZpgE4C6P7VAhUWwQk2Umih3ZkiOR9cbRqVc5QvBeZKI4e5OhRe9v844EvO2gtWBDhGImruv7a5c1Vf6numHnMBHdvaS5oXq_36ihHXfeFfuXHY89L3r8lMtQDe1R-P5m3vBQ1mhtfOBcutefYvDcQ8n1J8NCK0Lc
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+error est null
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+result n'est pas null True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.627298 ms
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 386)
+
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 263.
+Total: 0.455769 ms (FindLiveObjects: 0.026621 ms CreateObjectMapping: 0.013791 ms MarkObjects: 0.341586 ms  DeleteObjects: 0.073449 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: e44 -> priority: 1 
+The referenced script on this Behaviour (Game Object 'SoundManager') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.413753 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 269.
+Total: 0.380396 ms (FindLiveObjects: 0.019244 ms CreateObjectMapping: 0.009301 ms MarkObjects: 0.341266 ms  DeleteObjects: 0.009622 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.SetTimer (Single value) [0x00000] in <filename unknown>:0 
+  at UITimeLimit.AddTime () [0x00000] in <filename unknown>:0 
+  at GameManager.CandyDestroyed () [0x00000] in <filename unknown>:0 
+  at Candy.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
