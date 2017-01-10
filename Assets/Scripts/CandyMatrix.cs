@@ -3,12 +3,20 @@ using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using Utils;
+using System;
 
 public class CandyMatrix : MonoBehaviour {
 	private int _rows = 8;
 	private int _columns = 8;
 	private Vector3[][] _placeHolders;
 	private Candy[][] _candies;
+    public static bool bLShape;
+    public static bool bTShape;
+    public static bool bStar;
+    public static List<String> lstSpecialCandy = new List<string>();
+    public static int iRowPos = 0;
+    public static int iColPos = 0;
+    private String sShapeName = "";
 
 	void Awake() {
 		
@@ -123,7 +131,6 @@ public class CandyMatrix : MonoBehaviour {
 		} else {
 			yield return StartCoroutine(DestroyCandies());
 		}
-
 		InputManager.inputEnabled = true;
 	}
 	private void ApplySwap(Pair<int, int> pos1, Pair<int, int> pos2) {
@@ -189,8 +196,62 @@ public class CandyMatrix : MonoBehaviour {
 	private bool CheckForMatches() {
 		for (int i = 0; i < _rows; ++i) {
 			for (int j = 0; j < _columns; ++j) {
-				if (CheckHorizontal(_candies[i][j].Type, i, j) || CheckVertical(_candies[i][j].Type, i, j))
-					return true;
+				if (CheckHorizontal(_candies[i][j].Type, i, j))
+                {
+                    Debug.Log("check hor for : " + i + j);
+                    for(int _eachColumn = j; _eachColumn < j - 3; --_eachColumn)
+                    {
+                        for (int _tempRow = i; _tempRow < i - 3; --_tempRow)
+                        {
+                            if (CheckVertical(_candies[_tempRow][j].Type, _tempRow, j))
+                            {
+                                Debug.Log("check hor ver in hor for : " + _tempRow + j);
+                                switch (iRowPos)
+                                {
+                                    case 0: bLShape = true; sShapeName = "L"; break;
+                                    case 1: bTShape = true; sShapeName = "T"; break;
+                                    case 2: bLShape = true; sShapeName = "L"; break;
+                                }
+                                lstSpecialCandy.Add(_tempRow + "," + j + "," + sShapeName);
+                            }
+                            iRowPos += 1;
+                        }
+                        iRowPos = 0;
+                        iColPos += 1;
+                    }
+                    iColPos = 0;
+                    
+                    return true;
+                }
+                else if(CheckVertical(_candies[i][j].Type, i, j))
+                {
+                    Debug.Log("check ver for : " + i + j);
+                    for(int _tempRow = i; _tempRow < i - 3; --_tempRow)
+                    {
+                        for (int _tempCol = j; _tempCol < j - 3; --_tempCol)
+                        {
+                            if (CheckHorizontal(_candies[i][_tempCol].Type, i, _tempCol))
+                            {
+                                Debug.Log("check hor ver in hor for : " + i + _tempCol);
+                                bLShape = true;
+                                sShapeName = "L";
+                                switch (iColPos)
+                                {
+                                    case 0: bLShape = true; sShapeName = "L"; break;
+                                    case 1: bTShape = true; sShapeName = "T"; break;
+                                    case 2: bLShape = true; sShapeName = "L"; break;
+                                }
+                                lstSpecialCandy.Add(i + "," + _tempCol + "," + sShapeName);
+                            }
+                            iColPos += 1;
+                        }
+                        iColPos = 0;
+                        iRowPos += 1;
+                    }
+                    iRowPos = 0;
+                    return true;
+                }
+					
 			}
 		}
 		return false;
@@ -198,14 +259,21 @@ public class CandyMatrix : MonoBehaviour {
 	bool CheckHorizontal(CandyType candyType, int row, int column) {
 		return (column >= 2 && candyType == _candies [row] [column - 1].Type && candyType == _candies [row] [column - 2].Type);
 	}
-	bool CheckVertical(CandyType candyType, int row, int column) {
+    bool CheckVertical(CandyType candyType, int row, int column) {
 		return (row >= 2 && candyType == _candies [row - 1] [column].Type && candyType == _candies [row - 2] [column].Type);
 	}
 
-	private IEnumerator DestroyCandies() {
+    private IEnumerator DestroyCandies() {
 		var candies = GetCandiesToDestroy();
+        if(lstSpecialCandy.Count != 0)
+        {
+            foreach (String s in lstSpecialCandy)
+            {
+                Debug.Log(s);
+            }
+        }
+        
 		if (candies.Count != 0) {
-
 			foreach (var candy in candies) {
 				candy.DestroyAnimation ();
 			}
@@ -224,6 +292,7 @@ public class CandyMatrix : MonoBehaviour {
 				yield return StartCoroutine (Shuffle (GetAllCandies ()));
 		}
 	}
+
 	private IEnumerator DestroyMatrix() {
 		for (int i = 0; i < _rows; ++i) 
 			for(int j = 0; j < _columns; ++j) {

@@ -81,6 +81,9 @@
      <Compile Include="Assets\Scripts\Tween\TweenScale.cs" />
      <Compile Include="Assets\Scripts\WebApiRequest.cs" />
      <None Include="Assets\Plugins\NewtonSoft\Newtonsoft.Json.xml" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -95,6 +98,9 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>

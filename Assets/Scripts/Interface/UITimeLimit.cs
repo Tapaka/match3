@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 public class UITimeLimit : MonoBehaviour {
 	private Text _text;
@@ -42,7 +43,7 @@ public class UITimeLimit : MonoBehaviour {
 	public void AddTime() {
 		SetTimer (_timer + _addTime);
 		_addTime -= _addTimeDecay;
-		_addTime = Mathf.Max (_minimumAddTime, _addTime);
+        _addTime = Mathf.Max (_minimumAddTime, _addTime);
 	}
 
 	void Update() {

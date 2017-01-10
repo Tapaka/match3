@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour {
 	[SerializeField]
 	private UITimeLimit _timer;
 	public void CandyDestroyed() {
-		_score.Score += 10;
+        _score.Score += 10;
 		_timer.AddTime();
 	}
 	public void GameEnded() {

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 public class UIScore : MonoBehaviour {
 	private Text _scoreText;
@@ -9,20 +10,21 @@ public class UIScore : MonoBehaviour {
 		speed = 1;
 	}
 
-	private  int _score;
-	public int Score {
+	private  double _score;
+	public double Score {
 		get { return _score; }
 		set {
 			_score = value;
-			speed = (_score - int.Parse(_scoreText.text.Substring(7))) * 2;
+			speed = (_score - double.Parse(_scoreText.text.Substring(7))) * 2;
 		}
 	}
 
-	private int speed;
+	private double speed;
 	void Update() {
 		if (int.Parse (_scoreText.text.Substring(7)) < _score) {
-			int score = int.Parse(_scoreText.text.Substring(7)) + (int)(speed * Time.deltaTime);
-			score = Mathf.Min(_score, score);
+			double score = int.Parse(_scoreText.text.Substring(7)) + (int)(speed * Time.deltaTime);
+			score = Math.Min(_score, score);
+            
 			_scoreText.text = "Score: " + score.ToString();
 		}
 	}
