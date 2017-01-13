@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{B5BC606F-E204-48F3-0F53-6598C66309CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -39,75 +40,75 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>E:/Logiciels/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>E:/Logiciels/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Anim.cs" />
-     <Compile Include="Assets\Scripts\Candy.Animations.cs" />
-     <Compile Include="Assets\Scripts\Candy.cs" />
-     <Compile Include="Assets\Scripts\CandyMatrix.cs" />
-     <Compile Include="Assets\Scripts\Core\Utils.cs" />
-     <Compile Include="Assets\Scripts\DestroyAfterTime.cs" />
-     <Compile Include="Assets\Scripts\DestroyCube.cs" />
-     <Compile Include="Assets\Scripts\Engine\Cell.cs" />
-     <Compile Include="Assets\Scripts\Engine\GridBuilder.cs" />
-     <Compile Include="Assets\Scripts\Engine\Jewel.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\GameManager1.cs" />
-     <Compile Include="Assets\Scripts\GameMode.cs" />
-     <Compile Include="Assets\Scripts\GameModeManager.cs" />
-     <Compile Include="Assets\Scripts\Hello.cs" />
-     <Compile Include="Assets\Scripts\InputManager.cs" />
-     <Compile Include="Assets\Scripts\Interface\Redirection.cs" />
-     <Compile Include="Assets\Scripts\Interface\UIScore.cs" />
-     <Compile Include="Assets\Scripts\Interface\UITimeLimit.cs" />
-     <Compile Include="Assets\Scripts\Level.cs" />
-     <Compile Include="Assets\Scripts\LevelBuilder.cs" />
-     <Compile Include="Assets\Scripts\Levels.cs" />
-     <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\PlayerCreator.cs" />
-     <Compile Include="Assets\Scripts\PlayerManager.cs" />
-     <Compile Include="Assets\Scripts\Popup.cs" />
-     <Compile Include="Assets\Scripts\RandomGenerator.cs" />
-     <Compile Include="Assets\Scripts\Test.cs" />
-     <Compile Include="Assets\Scripts\Test2.cs" />
-     <Compile Include="Assets\Scripts\Token.cs" />
-     <Compile Include="Assets\Scripts\Tween\TweenPosition.cs" />
-     <Compile Include="Assets\Scripts\Tween\TweenScale.cs" />
-     <Compile Include="Assets\Scripts\WebApiRequest.cs" />
-     <None Include="Assets\Plugins\NewtonSoft\Newtonsoft.Json.xml" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PlaymodeTestsRunner">
- <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.HoloLens">
- <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VR">
- <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>E:/Unity/Match3v2/match3-master/Assets/Plugins/NewtonSoft/Newtonsoft.Json.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Scripts\Anim.cs" />
+    <Compile Include="Assets\Scripts\Candy.Animations.cs" />
+    <Compile Include="Assets\Scripts\Candy.cs" />
+    <Compile Include="Assets\Scripts\CandyMatrix.cs" />
+    <Compile Include="Assets\Scripts\Core\Utils.cs" />
+    <Compile Include="Assets\Scripts\DestroyAfterTime.cs" />
+    <Compile Include="Assets\Scripts\DestroyCube.cs" />
+    <Compile Include="Assets\Scripts\Engine\Cell.cs" />
+    <Compile Include="Assets\Scripts\Engine\GridBuilder.cs" />
+    <Compile Include="Assets\Scripts\Engine\Jewel.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameManager1.cs" />
+    <Compile Include="Assets\Scripts\GameMode.cs" />
+    <Compile Include="Assets\Scripts\GameModeManager.cs" />
+    <Compile Include="Assets\Scripts\Hello.cs" />
+    <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Interface\Redirection.cs" />
+    <Compile Include="Assets\Scripts\Interface\UIScore.cs" />
+    <Compile Include="Assets\Scripts\Interface\UITimeLimit.cs" />
+    <Compile Include="Assets\Scripts\Level.cs" />
+    <Compile Include="Assets\Scripts\LevelBuilder.cs" />
+    <Compile Include="Assets\Scripts\Levels.cs" />
+    <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerCreator.cs" />
+    <Compile Include="Assets\Scripts\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\Popup.cs" />
+    <Compile Include="Assets\Scripts\RandomGenerator.cs" />
+    <Compile Include="Assets\Scripts\Test.cs" />
+    <Compile Include="Assets\Scripts\Test2.cs" />
+    <Compile Include="Assets\Scripts\Token.cs" />
+    <Compile Include="Assets\Scripts\Tween\TweenPosition.cs" />
+    <Compile Include="Assets\Scripts\Tween\TweenScale.cs" />
+    <Compile Include="Assets\Scripts\WebApiRequest.cs" />
+    <None Include="Assets\Plugins\NewtonSoft\Newtonsoft.Json.xml" />
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>E:/Logiciels/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>E:/Unity/Match3v2/match3-master/Assets/Plugins/NewtonSoft/Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -117,5 +118,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>

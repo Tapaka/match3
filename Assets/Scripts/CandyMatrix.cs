@@ -1,9 +1,9 @@
-using UnityEngine;
-using System.Linq;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 using Utils;
-using System;
 
 public class CandyMatrix : MonoBehaviour {
 	private int _rows = 8;
@@ -30,7 +30,8 @@ public class CandyMatrix : MonoBehaviour {
 
 	void Start() {
 		InitializePlaceHolders();
-		CreateMatrix();
+        CreateMatrix();
+        Debug.Log("Start of the game / Initialization");
 		//StartCoroutine(Shuffle (GetAllCandies ()));
 	}
 
@@ -56,6 +57,15 @@ public class CandyMatrix : MonoBehaviour {
 				_candies[i][j].transform.parent = transform;
 			}
 		}
+        if (CheckForMatches())
+        {
+            var candies = GetAllCandies();
+            foreach (var candy in candies)
+            {
+                Destroy(candy.gameObject);
+            }
+            CreateMatrix();
+        }
 	}
 
 	private Candy _selected;
@@ -198,6 +208,17 @@ public class CandyMatrix : MonoBehaviour {
 			for (int j = 0; j < _columns; ++j) {
 				if (CheckHorizontal(_candies[i][j].Type, i, j))
                 {
+                    if (Check4TilesHor(_candies[i][j].Type, i, j) != -1)
+                    {
+                        int iColumn = Check4TilesHor(_candies[i][j].Type, i, j);
+                        Candy specialCandy = _candies[i][iColumn];
+                        var newCandyType = RandomGenerator.NextCandy();
+                        var position = new Vector3(_placeHolders[i][iColumn].x, iColumn);
+                        specialCandy = ((GameObject)Instantiate(Resources.Load(newCandyType.ToString()), position, Quaternion.identity)).GetComponent<Candy>();
+                        specialCandy.gameObject.name = i.ToString() + "_" + j.ToString();
+                        specialCandy.transform.parent = transform;
+                        specialCandy.FallAnimation(_placeHolders[i][iColumn]);
+                    }
                     Debug.Log("check hor for : " + i + j);
                     for(int _eachColumn = j; _eachColumn < j - 3; --_eachColumn)
                     {
@@ -226,7 +247,18 @@ public class CandyMatrix : MonoBehaviour {
                 else if(CheckVertical(_candies[i][j].Type, i, j))
                 {
                     Debug.Log("check ver for : " + i + j);
-                    for(int _tempRow = i; _tempRow < i - 3; --_tempRow)
+                    if (Check4TilesVer(_candies[i][j].Type, i, j) != -1)
+                    {
+                        int iRow = Check4TilesVer(_candies[i][j].Type, i, j);
+                        Candy specialCandy = _candies[iRow][j];
+                        var newCandyType = RandomGenerator.NextCandy();
+                        var position = new Vector3(_placeHolders[iRow][j].x, j);
+                        specialCandy = ((GameObject)Instantiate(Resources.Load(newCandyType.ToString()), position, Quaternion.identity)).GetComponent<Candy>();
+                        specialCandy.gameObject.name = i.ToString() + "_" + j.ToString();
+                        specialCandy.transform.parent = transform;
+                        specialCandy.FallAnimation(_placeHolders[iRow][j]);
+                    }
+                    for (int _tempRow = i; _tempRow < i - 3; --_tempRow)
                     {
                         for (int _tempCol = j; _tempCol < j - 3; --_tempCol)
                         {
@@ -262,6 +294,30 @@ public class CandyMatrix : MonoBehaviour {
     bool CheckVertical(CandyType candyType, int row, int column) {
 		return (row >= 2 && candyType == _candies [row - 1] [column].Type && candyType == _candies [row - 2] [column].Type);
 	}
+
+    public int Check4TilesHor(CandyType candyType, int row, int column)
+    {
+        if(column >= 3 && candyType == _candies[row][column - 3].Type)
+        {
+            return column - 3;
+        }else if(column <= 6 && candyType == _candies[row][column + 1].Type)
+        {
+            return column + 1;
+        }
+        return -1;
+    }
+
+    public int Check4TilesVer(CandyType candyType, int row, int column)
+    {
+        if(row >= 3 && candyType == _candies[row - 3][column].Type)
+        {
+            return row - 3;
+        }else if(row <= 6 && candyType == _candies[row + 1][column].Type)
+        {
+            return row + 1;
+        }
+        return -1;
+    }
 
     private IEnumerator DestroyCandies() {
 		var candies = GetCandiesToDestroy();
